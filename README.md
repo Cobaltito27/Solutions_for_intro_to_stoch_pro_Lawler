@@ -4,4 +4,4 @@ Learning stochastic processes by oneself can be tough and practicing with proble
 
 All answers are written using Markdown. A compiled PDF for Chapter 0 is also attached.
 
-P.S. It seems that GitHub __does NOT__ show embedded latex mathematical equations in Markdown files. You may want to compile them somewhere else.
+P.S. It seems that GitHub __does NOT__ show embedded latex mathematical equations in Markdown files. You may want to compile them elsewhere.
