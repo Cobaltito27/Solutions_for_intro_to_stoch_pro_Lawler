@@ -1,4 +1,4 @@
-# Solutions for Introduction to Stochastic Processes 2nd Edition by Gregory F. Lawler (MD)
+# Solutions for Introduction to Stochastic Processes 2nd Edition by Gregory F. Lawler (Markdown)
 
 Learning stochastic processes by oneself can be tough and practicing with problems is crucial. On the other hand, I could not find a proper solution manual to this textbook. Therefore, I post my own answers here, most of which are not properly check. Feel free to edit and contribute. I am still working on this project slowly.
 
