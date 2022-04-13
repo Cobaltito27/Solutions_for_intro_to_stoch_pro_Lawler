@@ -231,7 +231,7 @@ $$\exists \ \delta > 0, m \le N, s.t.\ P\{X_m = j|X_0 = i\} > \delta, for\ all\ 
 Then, we can easily see that:
 
 $$P\{X_m \ne j, m = 0,...,n|X_0 = i \} =
-  P(i \rightarrow \bar{j})(P(\bar{j}\rightarrow \bar{j}))^n$$
+  P(i \rightarrow \bar{j})(P(\bar{j}\rightarrow \bar{j}))^{n-1}$$
 
 For any $i, j \in S$, we can see that
 
@@ -243,14 +243,20 @@ and that,
 
 $$0 \le P(i \rightarrow \bar{j}) \le 1$$
 
+If $P(\bar{j}\rightarrow \bar{j}) = 0$, and $j \neq i$, then $P\{X_m \ne j, m = 0,...,n|X_0 = i \} = I\{n = 0\} \le 1 \times \rho^n$
+
+If $P(\bar{j}\rightarrow \bar{j}) = 0$, and $j = i$, then $P\{X_m \ne j, m = 0,...,n|X_0 = i \} = 0 \le 1 \times \rho^n$
+
+Let's see what if $P(\bar{j}\rightarrow \bar{j}) \neq 0$:
+
 Because there are only a finite number of states,
 
 $$\therefore \exists \ C < \infty , \rho < 1, s.t. $$
 
-$$C = sup\{P(i \rightarrow \bar{j})|i,j \in S\},\ 
+$$C = sup\{P(i \rightarrow \bar{j})P(\bar{j}\rightarrow \bar{j})^{-1}|i,j \in S\},\ 
  \rho = sup\{ P(\bar{j}\rightarrow \bar{j})|i,j \in S\}$$
 
-Then we have the first conclusion
+Then we can have the first conclusion:
 
 $$P\{X_m \ne j, m = 0,...,n|X_0 = i \} \le C\rho^n$$
 
@@ -274,6 +280,7 @@ $$E(T) = \sum_{n = 0}^{\infty}nP(T = n)
        = N^2C $$
 
 Here, $N^2C$ is a finite number.
+
 
 ## 1.8 Solution
 ### a)
