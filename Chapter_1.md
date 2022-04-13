@@ -271,7 +271,7 @@ $$E(T) = \sum_{n = 0}^{\infty}nP(T = n)
        = \sum_{n = 0}^{N}nP(T = n)
        \le \sum_{n = 1}^{N} nC\rho^{n-1}
        \le \sum_{n = 1}^{N} NC
-       \le N^2C $$
+       = N^2C $$
 
 Here, $N^2C$ is a finite number.
 
