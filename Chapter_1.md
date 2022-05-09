@@ -581,7 +581,7 @@ $$E(T) = 211/81$$
 The method used here is basically the same as similar problems solved before (e.g., Problems 1.8 and 1.10). Herein, we simply give the final numbers with no details in deduction.
 
 ### (a)
-This Markov Chain is irreducible and periodic (T = 3).
+This Markov Chain is irreducible and aperiodic.
 
 ### (b)
 $$\vec{\pi} = \frac{1}{37}(10, 5, 5, 3, 14)$$
